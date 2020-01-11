@@ -98,13 +98,13 @@ char debug_stringBuf[DEBUG_BUFFER_SIZE];
 
 // Update these with values suitable for your network.
 // TODO: Replace these hardcoded values with JSON from master Arduino...
-const char* ssid = "SKYE30B2";
-const char* password = "BDTRVRBSXM";
+const char* ssid = "XXXXXXXXXX";
+const char* password = "XXXXXXXXXX";
 // const char* mqtt_server = "piMQTT";  // THIS STOPPED WORKING????
-const char* mqtt_server = "192.168.0.67";
+const char* mqtt_server = "192.168.xxx.xxx";
 const int   mqtt_server_port = 1883;
 const char* mqtt_user = "piMQTT_user";
-const char* mqtt_password = "IflmTT800";
+const char* mqtt_password = "xxxxxxxxxx";
 
 #define SERIAL_BAUD 1200
 // #define SERIAL_BAUD 57600
